@@ -1,18 +1,18 @@
-package com.towertex.dbtest.room
+package com.towertex.dbtest.movies.room
 
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter
 import kotlinx.serialization.json.Json
 
 @ProvidedTypeConverter
-class IntListConverter {
+class StringListConverter {
     @TypeConverter
-    fun fromString(value: String): List<Int> {
+    fun fromString(value: String): List<String> {
         return Json.decodeFromString(value)
     }
 
     @TypeConverter
-    fun fromList(list: List<Int>): String {
+    fun fromList(list: List<String>): String {
         return Json.encodeToString(list)
     }
 }

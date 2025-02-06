@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testGetMapOfActorToMovies()">
+      <SelectionState runConfigName="dummyTest()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="getActorIdsForMovie()">
+      <SelectionState runConfigName="getFirstNamesOfStudentsInUppercaseTest()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testGetMapOfActorsToMovieNamesByTheirNickName()">
+      <SelectionState runConfigName="getDistinctMajorsTest()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testGetMapOfActorsToMovieNamesByTheirId()">
+      <SelectionState runConfigName="getFirst3LettersOfStudentNamesTest()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="testGetMapOfActorsToMovieNamesByTheirId_asMap()">
+      <SelectionState runConfigName="getFirstOccurrenceOfALetterInFirstNameForGivenLastNameTest()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

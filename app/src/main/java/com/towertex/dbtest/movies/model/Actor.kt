@@ -1,4 +1,4 @@
-package com.towertex.dbtest.model
+package com.towertex.dbtest.movies.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

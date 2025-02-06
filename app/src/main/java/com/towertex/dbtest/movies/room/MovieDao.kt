@@ -1,12 +1,12 @@
-package com.towertex.dbtest.room
+package com.towertex.dbtest.movies.room
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.towertex.dbtest.model.Actor
-import com.towertex.dbtest.model.Movie
-import com.towertex.dbtest.model.Vote
+import com.towertex.dbtest.movies.model.Actor
+import com.towertex.dbtest.movies.model.Movie
+import com.towertex.dbtest.movies.model.Vote
 
 @Dao
 interface MovieDao {

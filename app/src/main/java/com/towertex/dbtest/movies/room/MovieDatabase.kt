@@ -1,13 +1,13 @@
-package com.towertex.dbtest.room
+package com.towertex.dbtest.movies.room
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.towertex.dbtest.model.Actor
-import com.towertex.dbtest.model.Movie
-import com.towertex.dbtest.model.Vote
+import com.towertex.dbtest.movies.model.Actor
+import com.towertex.dbtest.movies.model.Movie
+import com.towertex.dbtest.movies.model.Vote
 
 @Database(
     entities = [
